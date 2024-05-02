@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Setting the background color of the body to #808080 (grey) and the text color to #F5F5DC (beige) -->
+	<style>
+		body {
+			background-color: #e0c68b;
+			color: #F5F5DC;
+			text-align: center; /* Centering the text */
+		}
+		
+		.dropdown {
+			position: relative;
+			display: inline-block;
+			text-align: center; /* Centering the dropdown menu */
+	 (grey) and the text color to #F5F5DC (beige) -->
+	<style>
+		body {
+			background-color: #e0c68b;
+			color: #F5F5DC;
+			text-align: center; /* Centering the text */
+		}
+		
+		.dropdown {
+			position: relative;
+			display: inline-block;
+			text-align: center; /* Centering the dropdown menu */
+		}
+		
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #e0c68b;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			z-index: 1;
+			left: 50%; /* Centering the dropdown-content */
+			transform: translateX(-50%);
+			text-align: center; /* Centering the text in the dropdown-content */
+		}
+		
+		.dropdown-content a {
+			color: #F5F5DC;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: center; /* Centering the text in the dropdown-content */
+			background-color: #e0c68b;
+			font-size: 200px;
+		}
+		
+		.dropdown-content a:hover {
+			color: #F5F5DC;
+            background-color: #e0c68b;
+		}
+		
+		.dropdown:hover.dropdown-content {
+			display: block;
+		}
+	</style>
+</head>
+<body>
+
+<!-- Adding a Heading 1 as: Group 5 Life Labs and centering it -->
+<h1 style="text-align:center; font-family:serif; font-size: 300%;""> Yapper Central </h1>
+
+<!-- Adding a dropdown menu with clickable menus that redirect to other html pages -->
+<div class="dropdown">
+ <span style="font-size: 250%;">Menu</span>
+  <div class="dropdown-content">
+    <a href="page1.html">Typhoon</a>
+    <a href="page2.html">Members</a>
+	<a href="page3.html">Solutions</a>
+  </div>
+</div>
+
+<!-- Adding a body under the dropdowns and heading -->
+<div style="background-color: #e0c68b; color: #F5F5DC; text-align: center; padding: 20px; font-size: 200%">
+	<p>Yapper Central is the official website of the Yippie Yappers. Yapper central is a trustable and informative website that talks about typhoons, its impact to those affected, and and solutions to mitigate the impact of typhoons. Feel free to explore our website and learn how to protect yourself and love ones from nature's fury.</p>
+	</div>
+</body>
+</html>
